@@ -18,6 +18,8 @@ import xssClean from 'xss-clean';
 
 import mongoSanitize from 'express-mongo-sanitize';
 
+import 'dotenv/config';
+
 declare global {
   // eslint-disable-next-line @typescript-eslint/no-namespace
   namespace Express {
